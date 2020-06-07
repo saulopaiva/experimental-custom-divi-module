@@ -1,0 +1,49 @@
+[05-Jun-2020 16:32:02 UTC] PHP Notice:  Undefined index: title in /workspace/wordpress/wp-content/plugins/toyota-components/includes/modules/Card/Card.php on line 93
+[05-Jun-2020 16:32:02 UTC] PHP Stack trace:
+[05-Jun-2020 16:32:02 UTC] PHP   1. {main}() /workspace/wordpress/index.php:0
+[05-Jun-2020 16:32:02 UTC] PHP   2. require() /workspace/wordpress/index.php:17
+[05-Jun-2020 16:32:02 UTC] PHP   3. require_once() /workspace/wordpress/wp-blog-header.php:19
+[05-Jun-2020 16:32:02 UTC] PHP   4. include() /workspace/wordpress/wp-includes/template-loader.php:77
+[05-Jun-2020 16:32:02 UTC] PHP   5. get_template_part() /workspace/wordpress/wp-content/themes/twentynineteen/page.php:24
+[05-Jun-2020 16:32:02 UTC] PHP   6. locate_template() /workspace/wordpress/wp-includes/general-template.php:157
+[05-Jun-2020 16:32:02 UTC] PHP   7. load_template() /workspace/wordpress/wp-includes/template.php:653
+[05-Jun-2020 16:32:02 UTC] PHP   8. require() /workspace/wordpress/wp-includes/template.php:706
+[05-Jun-2020 16:32:02 UTC] PHP   9. the_content() /workspace/wordpress/wp-content/themes/twentynineteen/template-parts/content/content-page.php:23
+[05-Jun-2020 16:32:02 UTC] PHP  10. apply_filters() /workspace/wordpress/wp-includes/post-template.php:247
+[05-Jun-2020 16:32:02 UTC] PHP  11. WP_Hook->apply_filters() /workspace/wordpress/wp-includes/plugin.php:208
+[05-Jun-2020 16:32:02 UTC] PHP  12. do_shortcode() /workspace/wordpress/wp-includes/class-wp-hook.php:286
+[05-Jun-2020 16:32:02 UTC] PHP  13. preg_replace_callback() /workspace/wordpress/wp-includes/shortcodes.php:199
+[05-Jun-2020 16:32:02 UTC] PHP  14. do_shortcode_tag() /workspace/wordpress/wp-includes/shortcodes.php:199
+[05-Jun-2020 16:32:02 UTC] PHP  15. ET_Builder_Section->_render() /workspace/wordpress/wp-includes/shortcodes.php:325
+[05-Jun-2020 16:32:02 UTC] PHP  16. ET_Builder_Section->render() /workspace/wordpress/wp-content/plugins/divi-builder/includes/builder/class-et-builder-element.php:2456
+[05-Jun-2020 16:32:02 UTC] PHP  17. do_shortcode() /workspace/wordpress/wp-content/plugins/divi-builder/includes/builder/main-structure-elements.php:1130
+[05-Jun-2020 16:32:02 UTC] PHP  18. preg_replace_callback() /workspace/wordpress/wp-includes/shortcodes.php:199
+[05-Jun-2020 16:32:02 UTC] PHP  19. do_shortcode_tag() /workspace/wordpress/wp-includes/shortcodes.php:199
+[05-Jun-2020 16:32:02 UTC] PHP  20. ET_Builder_Row->_render() /workspace/wordpress/wp-includes/shortcodes.php:325
+[05-Jun-2020 16:32:02 UTC] PHP  21. ET_Builder_Row->render() /workspace/wordpress/wp-content/plugins/divi-builder/includes/builder/class-et-builder-element.php:2456
+[05-Jun-2020 16:32:02 UTC] PHP  22. do_shortcode() /workspace/wordpress/wp-content/plugins/divi-builder/includes/builder/main-structure-elements.php:1696
+[05-Jun-2020 16:32:02 UTC] PHP  23. preg_replace_callback() /workspace/wordpress/wp-includes/shortcodes.php:199
+[05-Jun-2020 16:32:02 UTC] PHP  24. do_shortcode_tag() /workspace/wordpress/wp-includes/shortcodes.php:199
+[05-Jun-2020 16:32:02 UTC] PHP  25. ET_Builder_Column->_render() /workspace/wordpress/wp-includes/shortcodes.php:325
+[05-Jun-2020 16:32:02 UTC] PHP  26. ET_Builder_Column->render() /workspace/wordpress/wp-content/plugins/divi-builder/includes/builder/class-et-builder-element.php:2456
+[05-Jun-2020 16:32:02 UTC] PHP  27. do_shortcode() /workspace/wordpress/wp-content/plugins/divi-builder/includes/builder/main-structure-elements.php:2679
+[05-Jun-2020 16:32:02 UTC] PHP  28. preg_replace_callback() /workspace/wordpress/wp-includes/shortcodes.php:199
+[05-Jun-2020 16:32:02 UTC] PHP  29. do_shortcode_tag() /workspace/wordpress/wp-includes/shortcodes.php:199
+[05-Jun-2020 16:32:02 UTC] PHP  30. TOYOTACOMPS_Card->_render() /workspace/wordpress/wp-includes/shortcodes.php:325
+[05-Jun-2020 16:32:02 UTC] PHP  31. TOYOTACOMPS_Card->render() /workspace/wordpress/wp-content/plugins/divi-builder/includes/builder/class-et-builder-element.php:2456
+[05-Jun-2020 19:51:30 UTC] PHP Fatal error:  Cannot declare class TOYOTACOMPS_Card, because the name is already in use in /workspace/wordpress/wp-content/plugins/toyota-components/includes/modules/Cars/Cars.php on line 99
+[05-Jun-2020 19:51:30 UTC] PHP Stack trace:
+[05-Jun-2020 19:51:30 UTC] PHP   1. {main}() /workspace/wordpress/wp-admin/admin-ajax.php:0
+[05-Jun-2020 19:51:30 UTC] PHP   2. require_once() /workspace/wordpress/wp-admin/admin-ajax.php:22
+[05-Jun-2020 19:51:30 UTC] PHP   3. require_once() /workspace/wordpress/wp-load.php:37
+[05-Jun-2020 19:51:30 UTC] PHP   4. require_once() /workspace/wordpress/wp-config.php:80
+[05-Jun-2020 19:51:30 UTC] PHP   5. do_action() /workspace/wordpress/wp-settings.php:526
+[05-Jun-2020 19:51:30 UTC] PHP   6. WP_Hook->do_action() /workspace/wordpress/wp-includes/plugin.php:465
+[05-Jun-2020 19:51:30 UTC] PHP   7. WP_Hook->apply_filters() /workspace/wordpress/wp-includes/class-wp-hook.php:310
+[05-Jun-2020 19:51:30 UTC] PHP   8. et_builder_add_main_elements() /workspace/wordpress/wp-includes/class-wp-hook.php:286
+[05-Jun-2020 19:51:30 UTC] PHP   9. require_once() /workspace/wordpress/wp-content/themes/Divi/includes/builder/framework.php:637
+[05-Jun-2020 19:51:30 UTC] PHP  10. do_action() /workspace/wordpress/wp-content/themes/Divi/includes/builder/main-modules.php:38
+[05-Jun-2020 19:51:30 UTC] PHP  11. WP_Hook->do_action() /workspace/wordpress/wp-includes/plugin.php:465
+[05-Jun-2020 19:51:30 UTC] PHP  12. WP_Hook->apply_filters() /workspace/wordpress/wp-includes/class-wp-hook.php:310
+[05-Jun-2020 19:51:30 UTC] PHP  13. TOYOTACOMPS_ToyotaComponents->hook_et_builder_modules_loaded() /workspace/wordpress/wp-includes/class-wp-hook.php:286
+[05-Jun-2020 19:51:30 UTC] PHP  14. require_once() /workspace/wordpress/wp-content/themes/Divi/includes/builder/api/DiviExtension.php:204
